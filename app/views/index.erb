@@ -1,0 +1,7 @@
+<h1>Article Index</h1>
+<ul>
+<% @articles.each do |art| %>
+<h2><%= art.title %></h2>
+<li><%= art.content %></li>
+<% end %>
+</ul>
